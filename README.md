@@ -1,3 +1,3 @@
 # utxo_finder
 
-A simple snipepts to find utxo given btc address.
+A simple snippet to find utxo from given btc address.
