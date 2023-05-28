@@ -32,7 +32,7 @@ if __name__ == '__main__':
         finder = UtxoFinder()
         n = finder.utxo_count(i)
         # uncomment to pretty print the data
-        print(json.dumps(finder.find(i), indent=4, ensure_ascii=False))
+        #print(json.dumps(finder.find(i), indent=4, ensure_ascii=False))
         if n>0:
             # print how many utxo on this address
             print (f"{i} utxo: {n}")
